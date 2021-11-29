@@ -1,0 +1,52 @@
+footer {
+    text-align: center;
+    background-color: white;
+    margin-top: 100px;
+}
+
+footer section i{
+    color: var(--Celeste);
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+footer section i:hover{
+    color: red;
+}
+
+footer section h3{
+    font-size: 20px;
+}
+
+footer section p{
+    color: var(--GrisOscuro);
+    padding: 0px 30px 0px 30px;
+}
+
+footer p.copyright{
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+
+    footer div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer div section{
+        padding: 10px;
+        width: 30%;
+    }
+
+}

@@ -1,0 +1,47 @@
+.login main {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.login main div.datos{
+    padding: 10px;
+}
+
+.login main label{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.login main div.email{
+    margin-top: 20px;
+}
+
+.login main small{
+    color: red;
+}
+
+.login main input{
+    margin: 0 2px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.login main button{
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--Celeste);
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.login main button:hover{
+    background-color: #0022AA;
+    border: 1px solid white;
+}

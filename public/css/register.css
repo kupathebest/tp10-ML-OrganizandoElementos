@@ -1,0 +1,103 @@
+.register main{
+    width: 100%;
+
+}
+.register main h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.register main label.principal{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.register main input.largo{
+    margin: 0 2px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+}
+
+.register main form{
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.register main form .principal{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.register main form div.radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.register main form div.radio label, .register main form div.checkbox div.options div label{
+    margin: 0 5px;
+}
+
+.register main form div.checkbox div.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.register main form div.checkbox div.options div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.register main form div.buttons{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.register main form div.buttons button{
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    color: white;
+    border: white;
+    border-radius: 10px;
+    background-color: var(--Celeste);
+    width: 200px;
+}
+
+.register main form div.buttons button:hover{
+    background-color: var(--Azul);
+    border: 1px solid white;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+
+    .register main form{
+        max-width: 700px;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .register main input.largo{
+        width: 80%;
+    }
+
+    .register main form div.checkbox div.options div{
+        margin-bottom: 20px;
+    }
+
+    .register main form input.profile{
+        font-size: 1rem;
+    }
+
+}
+
+
